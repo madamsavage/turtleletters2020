@@ -93,7 +93,21 @@ def turtleLetter(letter,tur):
         tur.right(90)
         tur.forward(25)	
     elif letter == "H":
-	    pass
+	tur.right(90)
+        tur.fd(30)
+        tur.left(180)
+        tur.fd(15)
+        tur.right(90)
+        tur.fd(20)
+        tur.left(90)
+        tur.fd(15)
+        tur.left(180)
+        tur.fd(30)
+        #fix
+        tur.pu()
+        tur.right(180)
+        tur.fd(30)
+        tur.right(90)
     elif letter == "I":
 	tur.fd(20)
         tur.left(180)
