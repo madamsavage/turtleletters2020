@@ -187,17 +187,52 @@ elif letter == "A":
     elif letter == "K":
 	    pass
     elif letter == "L":
-	    pass
+	tur.right(-90)
+   	tur.forward(60)
+   	tur.left(180)
+  	tur.forward(60)
+	  
     elif letter == "M":
-	    pass
+	tur.left(45)
+   	tur.forward(20)
+   	tur.right(90)
+  	tur.forward(20)
+   	tur.left(90)
+   	tur.forward(20)
+   	tur.right(90)
+   	tur.forward(20)	
+	    
     elif letter == "N":
-	    pass
+	tur.left(90)
+	tur.forward(40)
+	tur.right(135)
+	tur.forward(40)
+	tur.left(135)
+        tur.forward(40)
+	
     elif letter == "O":
-	    pass
+       tur.left(90)
+       tur.forward(60)
+       tur.left(90)
+       tur.forward(40)
+       tur.left(90)
+       tur.forward(60)
+       tur.left(90)
+       tur.forward(40)	
+	  
     elif letter == "P":
-	    pass		
+	tur.left(90)
+        tur.forward(60)
+        tur.right(90)
+        tur.forward(40)
+        tur.right(90)
+        tur.forward(40)
+        tur.right(90)
+        tur.forward(40)
+
+	    	
     elif letter == "Q":
-	tur.pu()
+	      tur.pu()
         tur.fd(5)
         tur.right(90)
         tur.fd(30)
@@ -222,7 +257,7 @@ elif letter == "A":
         tur.right(90)
         tur.fd(10)  
     elif letter == "R":
-	tur.pu()
+	      tur.pu()
         tur.right(90)
         tur.fd(5)
         tur.pd()
@@ -246,7 +281,7 @@ elif letter == "A":
         tur.right(90)
         tur.fd(5)
     elif letter == "S":
-	tur.fd(20)
+	      tur.fd(20)
         tur.left(180)
         tur.fd(20)
         tur.left(90)
