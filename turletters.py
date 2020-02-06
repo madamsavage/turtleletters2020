@@ -122,7 +122,6 @@ elif letter == "A":
         tur.fd(30)
         tur.right(90)
         tur.fd(30)
-    
     elif letter == "G":
 	    pass		
     elif letter == "H":
@@ -144,7 +143,7 @@ elif letter == "A":
     elif letter == "P":
 	    pass		
     elif letter == "Q":
-	      tur.pu()
+	tur.pu()
         tur.fd(5)
         tur.right(90)
         tur.fd(30)
@@ -169,7 +168,7 @@ elif letter == "A":
         tur.right(90)
         tur.fd(10)  
     elif letter == "R":
-	      tur.pu()
+	tur.pu()
         tur.right(90)
         tur.fd(5)
         tur.pd()
@@ -193,7 +192,7 @@ elif letter == "A":
         tur.right(90)
         tur.fd(5)
     elif letter == "S":
-	      tur.fd(20)
+	tur.fd(20)
         tur.left(180)
         tur.fd(20)
         tur.left(90)
