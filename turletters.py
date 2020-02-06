@@ -217,7 +217,7 @@ elif letter == "A":
         tur.fd(5)     
     elif letter == "R":
 	tur.pu()
-	tur.right(90)
+        tur.right(90)
         tur.fd(5)
         tur.pd()
         tur.fd(30)
@@ -231,7 +231,8 @@ elif letter == "A":
         tur.fd(10)
         tur.right(90)
         tur.fd(10)
-        tur.left(120)
+        tur.left(90)
+        tur.left(30)
         tur.fd(25)
         tur.pu()
         tur.left(150)
